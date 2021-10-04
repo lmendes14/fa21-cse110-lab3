@@ -129,6 +129,7 @@
                 <h4>Audio:</h4>
                 <audio controls src="/audio/BigCorpEveningAudio.mp3"></audio>
             </section>
+            <br>
             <div>
                 <details>
                     <summary><strong>Zoom Recording:</strong></summary>
@@ -140,6 +141,40 @@
         <hr>
         <hr>
         <footer>
+            <form>
+                <fieldset>
+                    <legend>Subscribe for more!</legend>
+                    <label><input type="radio" name="radio">Yes!</label>
+                    <label><input type="checkbox" name="checkbox">Check this for our luxury subscription </label>
+                    <label>Name: <input type="text" name="text"></label>
+                    <label>Subscribe until: <input type="date" name="date"></label>
+                    <br>
+                    <label>Subscribe with this message: </label><textarea></textarea>
+                    <br>
+                    <label for="medium">Choose subscription medium: </label>
+                    <input list="mediums" id="medium" name="medium" />
+                    <datalist id="mediums">
+                        <option value="email"></option>
+                        <option value="mail"></option>
+                        <option value="text message"></option>
+                    </datalist>
+                    <br>
+                    <label for="rate">Choose subscription rate:</label>
+                    <select name="rates" id="rate">
+                        <option value="">--Please choose an option--</option>
+                        <option value="daily">Daily</option>
+                        <option value="weekly">Weekly</option>
+                        <option value="monthly">Monthly</option>
+                        <option value="yearly">Yearly</option>
+                    </select>
+                    <br>
+                    <br>
+                    <label><input type="radio" name="radio">No :(</label>
+                    <br>
+                    <br>
+                    <button type="button">Send!</button>
+                </fieldset>
+            </form>
             <h2>Big Corp. Ltd.</h2>
             <p>
                 1234 Engineering Rd.<br>
