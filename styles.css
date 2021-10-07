@@ -1,3 +1,9 @@
-h1 { /* Testing our external stylesheet by making header red */
-    color: red
+
+h2 {
+    color: rgb(153,0,0); /* Color each h2 element crimson red by rgb values */
+    text-align: center;
+}
+
+h3 {
+    color: hsl(19,76%,23%); /* Color each h3 element cinnamon brown by hsl values */
 }
