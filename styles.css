@@ -47,7 +47,7 @@ nav {
     
 }
 
-.agendalist{
+section.agendalist{
     display: grid;
     grid-template-columns: max-content;
     grid-template-rows: max-content;
@@ -83,7 +83,6 @@ form{
 
 p {
     color: rgb(107, 103, 103);
-    text-decoration: underline;
     text-align: left;
     max-width: 10in;
     display: block;
@@ -114,5 +113,37 @@ button:active{
     section {
         background: hotpink;
     }
+}
+
+#attendancenoon {
+    background-color: lightblue;
+}
+
+* {
+    font-family: 'robotomono', serif;
+}
+
+a[href="#"]{
+    background-color: silver;
+}
+
+h1, h2{
+    text-align: center;
+}
+
+ul li {
+   list-style-type: circle;
+}
+
+ol > li {
+    list-style-type: lower-alpha;
+}
+
+h5 ~ ul {
+    text-decoration: underline;
+}
+
+h4 + audio {
+    background-color: lightcyan;
 }
 
