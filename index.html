@@ -20,9 +20,9 @@
         <header>
             <nav> 
                 <ol>
-                    <li><a href="#">Software Team</a></li>
-                    <li><a href="#">Meeting Minutes</a></li>
-                    <li>Week 2</li>
+                    <li class="item"><a href="#">Software Team</a></li>
+                    <li class="item"><a href="#">Meeting Minutes</a></li>
+                    <li class="item">Week 2</li>
                 </ol>
             </nav>
             <hr>
@@ -35,7 +35,7 @@
         <hr>
         <main>
             <section> <!-- Attendance List -->
-                <h3>Attendance:</h3>
+                <h3 class="attendance">Attendance:</h3>
                 <ul>
                     <li><span>Lorenzo</span></li>
                     <li><span>John</span></li>
@@ -44,14 +44,14 @@
                     <li><span>Hannah</span></li>
                 </ul>
             </section>
-            <section> <!-- Agenda -->
+            <section class="agendalist"> <!-- Agenda -->
                 <h3>Agenda:</h3>
                 <h5>Items marked with "Unfinished" were carried over from last meeting</h5>
                 <ul>
-                    <li>Project debriefing -- <b>Unfinished</b></li>
-                    <li>Mentor introductions -- <b>Unfinished</b></li>
-                    <li>Development process tutorial -- <strong>New</strong></li>
-                    <li>Weekly recap -- <strong>New</strong></li>
+                    <li class="agenda">Project debriefing -- <b>Unfinished</b></li>
+                    <li class="agenda">Mentor introductions -- <b>Unfinished</b></li>
+                    <li class="agenda">Development process tutorial -- <strong>New</strong></li>
+                    <li class="agenda">Weekly recap -- <strong>New</strong></li>
                 </ul>
             </section>
             <section> <!-- Comments/Notes -->
@@ -66,7 +66,7 @@
             </section>
             <section>
                 <h3>Meeting Recordings:</h3>
-                <h4>Video:</h4>
+                <h4 class="vid">Video:</h4>
                 <video controls width="500">
                     <source src="video/BigCorpNoon.webm"
                             type="video/webm">
@@ -76,7 +76,7 @@
             </section>
             <br>
             <div>
-                <details>
+                <details class="zoom">
                     <summary><strong>Zoom Recording:</strong></summary>
                     <a href="#">https://bigcorp.zoom.us/j/weektwonoon</a>
                 </details>
@@ -91,9 +91,14 @@
                 <h3 style="text-align: center;">October 1, 2021 5:00pm</h3>
             </header>
             <hr>
-
+            <section class="test1">
+                <h1>This is test number one!</h1>
+            </section>
+            <section class="test2">
+                <h2>This is test number two!</h2>
+            </section>
             <section> <!-- Attendance List -->
-                <h3>Attendance:</h3>
+                <h3 class="attendance">Attendance:</h3>
                 <ul>
                     <li><span>Lorenzo</span></li>
                     <li><span>John</span></li>
@@ -101,14 +106,14 @@
                     <li><span>Phineas</span></li>
                 </ul>
             </section>
-            <section> <!-- Agenda -->
+            <section class="agendalist"> <!-- Agenda -->
                 <h3>Agenda:</h3>
                 <h5>Items marked with "Unfinished" were carried over from last meeting</h5>
                 <ul>
-                    <li>Weekly recap -- <b>Unfinished</b></li>
-                    <li>Web page design -- <strong>New</strong></li>
-                    <li>API standarization -- <strong>New</strong></li>
-                    <li>Plans for next week -- <strong>New</strong></li>
+                    <li class="agenda">Weekly recap -- <b>Unfinished</b></li>
+                    <li class="agenda">Web page design -- <strong>New</strong></li>
+                    <li class="agenda">API standarization -- <strong>New</strong></li>
+                    <li class="agenda">Plans for next week -- <strong>New</strong></li>
                 </ul>
             </section>
             <section> <!-- Comments/Notes -->
@@ -124,7 +129,7 @@
             <br>
             <section>
                 <h3>Meeting Recordings:</h3>
-                <h4>Video:</h4>
+                <h4 class="vid">Video:</h4>
                 <video controls width="500">
                     <source src="video/BigCorpEvening.webm"
                             type="video/webm">
@@ -134,7 +139,7 @@
             </section>
             <br>
             <div>
-                <details>
+                <details class="zoom">
                     <summary><strong>Zoom Recording:</strong></summary>
                     <a href="#">https://bigcorp.zoom.us/j/weektwoevening</a>
                 </details>
@@ -179,12 +184,12 @@
                 </fieldset>
             </form>
             <h2>Big Corp. Ltd.</h2>
-            <p>
+            <p class="address">
                 1234 Engineering Rd.<br>
                 San Diego, CA<br>
                 98765
             </p>
-            <p>
+            <p class="me">
                 Ⓒ Lorenzo Mendes 2021
             </p>
         </footer>

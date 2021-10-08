@@ -1,9 +1,118 @@
+@font-face {
+    font-family: 'robotomono';
+    src: url('Roboto_Mono/RobotoMono-VariableFont_wght.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+h1 {
+    height: 1em;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    margin-right: 1em;
+    margin-left: 1em;
+    padding-top: .5em;
+    padding-bottom: .5em;
+    padding-right: .5em;
+    padding-left: .5em;
+    border-style: dashed;
+    border-color: pink;
+    border-width: 1px;
+    border-radius: 1em;
+}
 
 h2 {
     color: rgb(153,0,0); /* Color each h2 element crimson red by rgb values */
     text-align: center;
+    margin: auto;
+    padding: .25em .25em .25em .25em;
 }
 
 h3 {
     color: hsl(19,76%,23%); /* Color each h3 element cinnamon brown by hsl values */
 }
+
+nav {
+    font-size: 5mm;
+    margin: 1em 1em 1em 1em;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+}
+
+.agenda{
+    font-size: .8cm;
+    position: static;
+    
+}
+
+.agendalist{
+    display: grid;
+    grid-template-columns: max-content;
+    grid-template-rows: max-content;
+    gap: 15px;
+}
+
+.attendance{
+    display: inline-block;
+}
+
+summary{
+    width: 40em;
+    position: relative;
+}
+
+.zoom{
+    max-height: 20vh;
+}
+
+.address{
+    min-height: 1vh;
+    display: inline;
+}
+
+form{
+    max-width: 100vw;
+}
+
+.me{
+    min-width: 1em;
+    display: block;
+}
+
+p {
+    color: rgb(107, 103, 103);
+    text-decoration: underline;
+    text-align: left;
+    max-width: 10in;
+    display: block;
+    font-family: 'robotomono', serif;
+}
+
+.test1{
+    display: none;
+}
+
+.test2{
+    display: none;
+}
+
+.vid{
+    display: inline;
+}
+
+button:hover{
+    color: blue;
+}
+
+button:active{
+    color: purple;
+}
+
+@media (max-width: 50rem){
+    section {
+        background: hotpink;
+    }
+}
+
